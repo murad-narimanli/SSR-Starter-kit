@@ -13,7 +13,7 @@ export default (req, store, context) => {
         <Provider store={store}>
             <StaticRouter location={req.path} context={context}> 
                 <div>{renderRoutes(Routes)}</div>
-            </ StaticRouter>
+            </StaticRouter>
         </Provider>
     );
 

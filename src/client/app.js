@@ -10,7 +10,6 @@ class App extends Component {
             <div className="default_layout">
                 <Header />
                 {renderRoutes(this.props.route.routes)}
-                <Footer/>
             </div>
         );  
     }
